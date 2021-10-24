@@ -12,11 +12,11 @@ inputs:
   campus:
     description: "所在校区 (燕园、万柳、畅春园、圆明园、中关新园)"
     required: true
-    default: "燕园"
+    default: "万柳"
   reason:
     description: "出入校事由"
     required: true
-    default: "恰饭"
+    default: "科研"
   in_habitation:
     description: "入校前居住地 (北京、京外)"
     required: true
@@ -36,7 +36,7 @@ inputs:
   out_track:
     description: "出校行动轨迹"
     required: true
-    default: "燕园-畅春园"
+    default: "燕园-万柳"
   wechat:
     description: "是否需要微信通知 (True / False)"
     required: true
