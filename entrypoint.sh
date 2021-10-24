@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 echo "PKUAutoSubmit Start"
-export OPENSSL_CONF=/etc/ssl/ && cd /PKUAutoSubmit && python entrypoint.py $@
+export OPENSSL_CONF=/etc/ssl/ && cd /PKUAutoSubmit && python main.py $@
 echo "PKUAutoSubmit Finish"
 
 time=$(date)
