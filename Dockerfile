@@ -1,6 +1,6 @@
 FROM python:buster
 
-RUN pip install selenium
+RUN pip install selenium==3.141.0
 RUN git clone https://github.com/sentryjun/PKUAutoSubmit.git /PKUAutoSubmit
 
 COPY entrypoint.sh /entrypoint.sh
