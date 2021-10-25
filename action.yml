@@ -12,7 +12,7 @@ inputs:
   campus:
     description: "所在校区 (燕园、万柳、畅春园、圆明园、中关新园)"
     required: true
-    default: "万柳"
+    default: "燕园"
   reason:
     description: "出入校事由"
     required: true
