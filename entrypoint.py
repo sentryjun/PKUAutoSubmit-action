@@ -36,6 +36,7 @@ if __name__ == '__main__':
     parser.add_argument('out_track', type=str)
     parser.add_argument('wechat', type=str)
     parser.add_argument('sckey', type=str)
+    parser.add_argument('main_reason', type=str)
     args = parser.parse_args()
 
     print('Driver Launching...')
@@ -49,6 +50,6 @@ if __name__ == '__main__':
     run(driver_pjs, args.username, args.password, args.campus, args.reason,
         args.out_destination, args.out_track,
         args.in_habitation, args.in_district, args.in_street, False, '',
-        eval(args.wechat), args.sckey)
+        eval(args.wechat), args.sckey, args.main_reason)
 
     driver_pjs.quit()
