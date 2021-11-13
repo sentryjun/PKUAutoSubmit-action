@@ -36,7 +36,7 @@ inputs:
   out_track:
     description: "出校行动轨迹"
     required: true
-    default: "燕园-万柳"
+    default: "燕园-万柳-燕园"
   wechat:
     description: "是否需要微信通知 (True / False)"
     required: true
