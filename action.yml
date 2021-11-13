@@ -69,3 +69,4 @@ runs:
     - ${{ inputs.out_track }}
     - ${{ inputs.wechat }}
     - ${{ inputs.sckey }}
+    - ${{ inputs.main_reason }}
