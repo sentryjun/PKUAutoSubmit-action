@@ -45,7 +45,11 @@ inputs:
     description: "方糖 sckey"
     required: true
     default: "xxxxxxxx"
-
+  main_reason:
+    description:"主要原因"
+    required: true
+    default:"学业"
+    
 outputs:
   time:
     description: "小助手运行时间"
